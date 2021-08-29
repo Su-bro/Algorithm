@@ -1,6 +1,6 @@
 package week2;
 
-public class Solution_음양더하기 {
+public class Solution_내적 {
 	public int solution(int[] absolutes, boolean[] signs) {
         int answer = 0;
         for(int i = 0; i<absolutes.length; i++){
@@ -12,5 +12,4 @@ public class Solution_음양더하기 {
         }
         return answer;
     }
-
 }

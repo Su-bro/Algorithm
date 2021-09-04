@@ -1,4 +1,4 @@
-package week1;
+package week3;
 
 public class Solution_로또의최고순위 {
 	

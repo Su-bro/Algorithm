@@ -6,20 +6,22 @@ public class PG_LV2_짝지어제거하기 {
 	
     public int solution(String s)
     {
-        while(s.length()>2){
-            char[] ch = s.toCharArray();
-            for(int i = 1; i<ch.length; i++){
-                if(ch[i] == ch[i-1]){
-                    i++;
-                    continue;
-                }else{
-                    s = "";
-                    s += ch[i-1];
-                }
+        Stack<Character> st = new Stack<Character>();
+        for(int i = 0; i < s.length(); i++){
+            if(st.isEmpty()){
+                st.add(s.charAt(i));
             }
-            System.out.println(s);
+            else if(s.charAt(i) ==  st.peek()){
+                st.pop();
+            }
+            else if(s.charAt(i) != st.peek()){
+                st.add(s.charAt(i));
+            }
         }
-        System.out.println(s);
+        if(st.size()>0){
+            return 0;
+        }        
+        
         return 1;
     }
 

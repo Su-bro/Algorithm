@@ -1,4 +1,4 @@
-package week9;
+package week10;
 
 /*
 숫자를 만나면 len++

@@ -1,4 +1,4 @@
-package kakaoblind;
+package week10;
 
 import java.util.*;
 import java.util.Map.Entry;

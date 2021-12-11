@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Main_2470_두용액 {
 
     public static void main(String[] args) throws NumberFormatException, IOException {
 

@@ -6,8 +6,6 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        HashMap<String, Integer> map = new HashMap<>();
-        map.keySet().iterator().next()
 //        System.setIn(new FileInputStream("src/BOJ1927/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
